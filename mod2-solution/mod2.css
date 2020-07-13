@@ -19,14 +19,24 @@ section {
   margin-top: 20px;
   font-family: Helvetica;
   padding: 10px;
+  position: relative;
 }
 
 h2 {
 	border: 1px solid black;
-	text-align: center;
+	margin: 0;
 	padding: 10px;
+	text-align: center;
 	width: 30%;
 	font-size: 125%;
+	position: absolute;
+	top: -1px;
+	right: -1px;
+}
+
+p {
+	position: absolute;
+	top: 50px;	
 }
 
 #title-chicken {
@@ -35,10 +45,6 @@ h2 {
 
 #title-beef {
 	background-color: green;
-}
-
-#sushi {
-
 }
 
 #title-sushi {
