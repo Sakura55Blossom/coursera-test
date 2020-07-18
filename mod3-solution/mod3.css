@@ -1,7 +1,37 @@
 body {
 	background-color: #9966ff;
+	font-size: 16px;
+	color: #FFF;
+	font-family: 'monospace', sans-serif;
+}
+
+.navbar-brand h1 {
+  color: #9966ff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand a:hover {
+	text-decoration: none;
 }
 
 #nav-list {
-	background-color: #66ff33;
+	background-color: #99ccff;
+}
+
+#main-content section {
+	height: 1000px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px black solid;
+	background-color: #99ccff;
+}
+
+#main-content section a:hover {
+	text-decoration: none;
 }
